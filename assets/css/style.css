@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px;
+  line-height: 1.6;
+  background-color: #121212;
+  color: #ffffff;
+}
+
+a {
+  color: #4da6ff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #444;
+}
+
+.name-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.social-links a {
+  margin-right: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-flex;
+  align-items: center;
+  border: 2px solid #444444;
+  border-radius: 8px;
+  padding: 4px;
+  transition: border-color 0.3s, background-color 0.3s;
+}
+
+.social-links a:hover {
+  border-color: #ffffff;
+  background-color: #333333;
+}
+
+.social-links img {
+  width: 28px;
+  height: 28px;
+}
+
+.project-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.project-list li {
+  margin-bottom: 12px;
+  padding: 12px 16px;
+  background: #1b1b1b; /* sáng hơn nền một chút */
+  border-radius: 8px;
+  border: 1px solid #444444;
+  transition: transform 0.15s ease, background 0.2s ease;
+}
+
+.project-list li:hover {
+  transform: translateY(-3px);
+  background: #272727;
+}
+
+.project-list a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+}
